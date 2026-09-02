@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+.venv-outdoor/
+.venv-sensor/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated results
+results/
+
+# Raw datasets / recordings
+data/
+sisfall/
+
+# Local sensor recordings
+*.csv
+*.mp4
+*.avi
+*.mov
+
+# Large model
+imu_fall_model.pkl
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
